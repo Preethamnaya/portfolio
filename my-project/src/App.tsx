@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { Github, Linkedin, Mail, ExternalLink, Menu, X, Code2, Briefcase, User, MessageSquare, ChevronRight, GraduationCap, MapPin, Sparkles, Terminal } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, Menu, X, User, ChevronRight, GraduationCap, Sparkles, Terminal } from "lucide-react";
 import { useState, useEffect } from "react";
-import { personalInfo, skills, experience, projects, stats } from "./data";
+import { personalInfo, skills, projects, stats } from "./data";
 import "./App.css";
 
 const Navbar = () => {
